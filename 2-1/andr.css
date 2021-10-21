@@ -1,0 +1,616 @@
+@font-face {
+    font-family: ofont.ru_CGF Arch ReactorRUS; 
+    src: url(font/ofont.ru_CGF Arch ReactorRUS.ttf);
+   }
+
+body
+{
+	font-family: ofont.ru_CGF Arch ReactorRUS;
+	margin: 0;
+    padding: 0;
+}
+header
+{
+	background-image: url(img/photo-76.jpg) ;
+	background-size: 100%;
+	height: 100vh;
+
+}
+.y
+{	
+	float:left;
+	margin:30px 20px;
+}
+nav ul/*уберают маркеры*/
+{
+  list-style: none;
+}
+nav>ul>li/*делает её в линию строки*/
+{
+  float: left;
+}
+nav ul::after/*какието блоки ,но я хз*/
+{
+  content:"";
+  display:block;
+  clear: both;
+}
+nav ul li a /**/
+{
+  display: inline-block;/*хз*/
+  padding :10px 20px;/*отступы*/
+  text-decoration: none;/*уберает линию*/
+  color:white ;/*цвет*/
+}
+nav ul ul {/*1 регулирует для выезжания*/
+  display: none;
+  position: absolute;
+  padding :0px 0px;
+}
+nav ul li:hover ul{/*2 регулирует для выезжания*/
+  display: block;
+}
+.g2 
+{
+
+	  float: left;
+	
+}
+
+
+.s
+{
+
+	font-size: 20px;
+	margin-left:650px; 
+	
+	width:350;
+	height: 75px;
+	font-color:white; 
+	
+}
+.s img
+{
+	width: 20px;
+	height: 20px;
+	float: right;
+	margin-top:30px; 
+	
+} 
+
+.u
+{
+	color:white;
+	float: right;
+	 padding-top:30px;
+	margin:0px 20px
+}
+.t
+{
+	text-align: center;
+	margin-top:175px;
+	
+	color:white;
+}
+.t h1
+{
+	font-size: 50px;
+}
+.t a
+{
+	text-decoration: none;
+	color:white;
+	font-size: 26px;
+}
+.t div
+{
+	margin-left:44%;
+	text-align: center;
+	width: 155px;	
+	height: 40px;
+	font-size: 18px;
+	border:1px solid black;
+}
+.m
+{
+	height: 30px;
+}
+.o
+{
+	height: 100vh;
+}
+.o img
+{
+	margin-left:50px;
+}
+.h
+{
+	margin-top:35px;
+	margin-left:75px;
+	font-size: 32px;
+	width: 600px;
+	float:left;
+}
+.i
+{
+	 
+	font-size: 18px;
+	margin-left:75px;
+	width: 350px;
+	font-size: 18px;
+	
+	float:left;
+}
+
+.k
+{	
+	
+	height: 100vh;
+
+}
+.tyu
+{
+	margin-top:20px;
+	margin-bottom:20px;  
+	font-size: 30px;
+	text-align: center;
+	padding-bottom:50px;
+}
+
+.p1
+{
+	float:left;
+
+width: 400px;	
+height: 350px;
+margin-left:40px;
+background-image: url(img/photo-55.jpg) ;
+background-size:100% 100%;
+}
+.p2
+{
+
+width: 400px;	
+height: 350px;
+float:left;
+margin-left:40px; 
+background-image: url(img/photo-83.jpg) ;
+background-size:100% 100%;
+}
+.p3
+{
+
+
+width: 400px;	
+height: 350px;
+float:left;
+margin-left:40px;
+background-image: url(img/photo-43.jpg) ;
+background-size:100% 100%;
+}
+.pf1
+{
+	padding-top:30px;
+	padding-left:30px;
+	width: 20px;	
+	height: 20px;
+}
+.pf2
+{
+	float: right;
+	padding-top:30px;
+	padding-right: 30px;
+	width: 20px;	
+	height: 20px;
+}
+.k h2
+{
+	padding-top:110px;
+	padding-left:30px;
+}
+.k p
+{
+	padding-top:15px;
+	padding-left:30px;
+	font-weight: 600
+}
+
+.ro1:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.ro1 
+{ 
+	display: inline-block; 
+}
+
+* html .ro1 
+ { 
+ 	height: 1%; 
+ }
+
+.ro1 
+{ 
+	display: block; 
+}
+.m1
+{
+	text-align: right;
+	margin-right: 100px;
+	margin-top: 30px; 
+	margin-bottom: 30px;
+}
+.pf3
+{
+
+	width: 30px;
+	height: 30px;
+	padding-right: 30px;
+
+}
+.pf4
+{
+	width: 30px;
+	height: 30px;
+	transform: scale(-1, 1);
+
+}
+.k1
+{
+	margin-top: 100px; 
+	height: 120vh;
+	background-image: url(img/photo-23.jpg) ;
+	color: white;
+	text-align: center;
+}
+.kp1
+{
+	padding-top: 30px;
+}
+.kp1 h2{
+	font-size: 42px;
+}
+.kp1 p{
+	font-size: 24px;
+}
+
+table {
+	margin-left:220px; 
+	font-size: 26px;
+    border-collapse: collapse;
+   }
+   td {
+   	text-align: center;
+    border-bottom: 1px solid #aaaaaa; /* Рамка вокруг ячеек */
+   }
+.kp2 a{
+	
+    color: white;
+    text-decoration: none;
+}
+.kp2 td{
+width: 220px;
+height: 60px;
+}
+.stroka0{
+	color: #aaaaaa;
+}
+
+.kp2 table .stroka1:hover .cac1 {
+    color: red; 
+    text-decoration: underline;
+} 
+.kp2 table .stroka2:hover .cac2 {
+    color: red;   
+    text-decoration: underline;
+} 
+.kp2 table .stroka3:hover .cac3 {
+    color: red; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+} 
+.kp2 table .stroka4:hover .cac4 {
+    color: red; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+} 
+.cnop{
+	margin: 60px 550px;
+	border: 2px solid white;
+	width: 200px;
+	height: 40px;
+	font-size: 20px;
+	padding-top: 20px;
+}
+.cnop a {
+
+}
+.k2
+{
+	height: 150vh;
+}
+.k2 h2
+{
+	margin-top:100px;
+	text-align: center;
+	font-size: 40px;
+}
+
+.floor1
+{
+	width: 400px;
+	height: 100px;
+	float:left;
+	margin-left: 80px; 
+}
+.infoA1
+{
+	width: 450px;
+	height: 130px;
+	color: white;
+	background-color:#071a28;
+	
+}
+.infoA1 .ui1
+{
+	font-size: 12px;
+	padding-top: 10px;
+	padding-left:  20px;
+	color: #b2b2b2;
+}
+
+.infoA1 .ui2
+{
+	
+	padding-left:  20px;
+}
+.infoA2
+{
+	width: 450px;
+	height: 600px;
+	
+}
+.infoA2 .ui1
+{
+	font-size: 12px;
+	padding-top: 0px;
+	padding-left:  20px;
+	color: #b2b2b2;
+}
+.infoA2 .ui2
+{
+	padding-top: 0px;
+	padding-left:  20px;
+}
+.infoA2 hr
+{
+	border: none; 
+   
+    background-color: black; 
+    height: 3px;
+}
+.cno 
+{
+background-color: #ec5118;
+width: 450px;
+height: 130px;
+}
+.cno p 
+{
+padding-top: 50px;
+padding-left: 100px;
+
+}
+.cno p a 
+{
+	text-decoration: none;
+	color:white;
+	font-size: 26px;
+
+}
+
+.floor2
+{
+	
+	width: 700px;
+	height: 750px;
+	margin-left:550px;
+}
+.infoB1
+{
+	margin-top: 15px;
+	width: 700px;
+	height: 280px;
+	border:1px solid black;
+	background-image: url(img/photo-77.jpg) ;
+	background-size:100% 100%;
+}
+.infoB2
+{
+	width: 700px;
+	height: 450px;
+	
+}
+.infoB2 .ui3
+{
+	font-size: 12px;
+	color: #b2b2b2;
+}
+.k3
+{
+	height: 110vh;
+}
+.ldl1
+{
+
+	float: left;
+	height: 100%;
+	width: 50%;
+	background-color: #071a28;
+	border:1px solid black;
+}
+.lop
+{
+	font-size: 18px;
+	color: white;
+	margin-left: 90px;
+	margin-top: 65px;
+	margin-right: 90px;
+}
+.lop h2
+{
+	font-size: 48px;
+}
+.form
+{
+	font-size: 16px;
+	height: 40px;
+	width: 470px;
+	outline: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	color: white;
+	background-color:#071a28;
+}
+.form1
+{
+	font-size: 16px;
+	height: 40px;
+	width: 470px;
+	outline: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	color: white;
+	background-color:#071a28;
+}
+.form1[type='number'] {
+    -moz-appearance:textfield;
+}
+
+.form1::-webkit-outer-spin-button,
+.form1::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+.ghjk
+{
+background-color: #ec5118;
+width: 470px;
+height: 60px;
+text-align: center;
+
+
+}
+
+.ghjk p 
+{
+padding-top: 15px;
+
+}
+.ghjk p a
+{
+	
+	text-decoration: none;
+	color:white;
+	font-size: 20px;
+
+}
+.hfhfh
+{
+	font-size: 16px;
+	padding-top: 20px; 
+}
+.ldl2
+{
+	height: 100%;
+	width: 50%;
+	margin-left: 675px; 
+	border:1px solid black;
+	background-image: url(img/photo-33.jpg) ;
+	background-size:100% 100%;
+}
+.k4
+{
+	height: 100vh;
+}
+.ytu
+{
+	margin: 120px;
+}
+.kol1
+{
+	float: left;
+	width: 600px;
+	height: 440px;
+	background-image: url(img/map-office.png) ;
+	background-size:100% 100%;
+}
+.kol2
+{
+
+		
+	margin-left:600px;
+}
+.hop
+{
+	padding-left:50px; 
+}
+.hop h2
+{
+	font-size: 38px;
+	margin-bottom:-10px;
+}
+.hop .uyi1
+{
+	margin-bottom:-20px;
+
+}
+.hop .uyi2
+{
+	font-size: 24px;	
+}
+.hop img
+{
+	margin-top:40px;
+	margin-right: 20px;
+}
+.k5
+{
+	height: 23vh;
+	background-color: #071a28;
+	color:white;
+	font-size: 12px;
+}
+.tecst1
+{
+	float: left;
+	height: 50px;
+	width: 250px;
+	padding-top: 40px;
+	padding-left: 100px;
+	
+}
+.tecst2
+{
+	text-align: center;
+	height: 50px;
+	width: 250px;
+	padding-top: 50px;
+	margin-left: 200px;
+
+	float: left;
+}
+.tecst3
+{
+	float: right;
+	height: 50px;
+	width: 250px;
+	padding-top: 40px;
+	padding-left: 100px;
+
+}
